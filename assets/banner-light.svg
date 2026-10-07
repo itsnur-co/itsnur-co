@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Nur Uddin, Software Engineer, Full-Stack Web and Mobile">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#d1d9e0"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#ffffff"/>
+    <rect x="560" width="640" height="300" fill="url(#dots)"/>
+    <rect x="560" width="640" height="300" fill="url(#fade)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="15.5" stroke="#d1d9e0"/>
+
+  <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#0969da">~/itsnur-co</text>
+    <text x="62" y="162" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Nur Uddin</text>
+    <text x="64" y="204" font-size="22" fill="#59636e">Software Engineer · Full-Stack Web &amp; Mobile</text>
+
+    <rect x="64" y="232" width="206" height="32" rx="16" fill="#f6f8fa" stroke="#d1d9e0"/>
+    <circle cx="84" cy="248" r="4.5" fill="#1a7f37"/>
+    <text x="98" y="253" font-size="14" fill="#1f2328">Open to remote roles</text>
+    <text x="290" y="253" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#59636e">Chattogram, Bangladesh</text>
+  </g>
+
+  <g transform="translate(716 52)">
+    <rect width="420" height="196" rx="12" fill="#f6f8fa" stroke="#d1d9e0"/>
+    <circle cx="24" cy="24" r="5" fill="#d1d9e0"/>
+    <circle cx="42" cy="24" r="5" fill="#d1d9e0"/>
+    <circle cx="60" cy="24" r="5" fill="#d1d9e0"/>
+    <text x="396" y="29" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">nur.ts</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#1f2328">
+      <text x="24" y="72"><tspan fill="#cf222e">const</tspan> nur = {</text>
+      <text x="44" y="98">role: <tspan fill="#0a3069">"Software Engineer"</tspan>,</text>
+      <text x="44" y="124">stack: [<tspan fill="#0a3069">"web"</tspan>, <tspan fill="#0a3069">"mobile"</tspan>],</text>
+      <text x="44" y="150">experience: <tspan fill="#0a3069">"6+ years"</tspan>,</text>
+      <text x="44" y="176">remote: <tspan fill="#0550ae">true</tspan> };</text>
+    </g>
+  </g>
+</svg>
